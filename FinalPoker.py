@@ -1,6 +1,6 @@
 import pandas as pd
 
-#This is the test csv I used but should work witht he pnow csv files.
+#This is the test csv I used but should work with the pnow csv files.
 df = pd.read_csv('ledger.csv')
 
 df = df.drop(columns=['session_start_at', 'session_end_at', 'stack', 'buy_out'])
